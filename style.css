@@ -1,0 +1,89 @@
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+  }
+  body{
+    margin: 0;
+    font-family: 'karla', sans-serif;
+  }
+  main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:var(--Light-Gray);
+  }
+  .card{
+
+    max-width: 39.5em;
+    border-radius: .5em;
+    overflow: hidden;
+  }
+  .hero{
+    background-color: white;
+    padding: 1.4em 2.4em;
+  }
+  .hero h1{
+    color: var(--Cyan);
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+  .hero p:first-of-type{
+    color: var(--Bright-Yellow);
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .hero p:last-of-type{
+    color: var(--Grayish-Blue);
+    margin-top: .7em;
+    line-height: 160%;
+    margin-bottom: 1.1em;
+  }
+  .row-2{
+    display: flex;
+  }
+  .row-2 > *{
+    color: white;
+    flex: 1;
+    padding: 1.4em 2.4em;
+  }
+  .row-2 h3{
+    font-size: 1.1rem;
+  }
+  .signup{
+    background-color: var(--Cyan);
+  }
+  .why_us{
+    background-color: hsl(179, 62%, 53%);
+  }
+  .signup .price{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgba(255, 255, 255, 0.501);
+    margin-bottom: 0;
+  }
+  .signup .price span{
+    font-size: 2rem;
+    color: white;
+  }
+  .signup p:nth-child(3){
+    margin-top: .5em;
+  }
+  .signup button{
+    width: 100%;
+    background-color: var(--Bright-Yellow);
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .9em 0;
+    color: white;
+    cursor: pointer;
+    border-radius: .25em;
+    margin: 1em auto;
+  }
+  .why_us p{
+    color: rgba(255, 255, 255, 0.801);
+  }
